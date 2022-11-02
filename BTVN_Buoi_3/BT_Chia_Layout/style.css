@@ -1,0 +1,114 @@
+
+body{
+    background-color: blanchedalmond;
+}
+.header{
+    background-color: pink;
+    height: 5vh;
+    margin: 4px;
+}
+.container{
+    display: flex;
+}
+.left{
+    display: flex;
+    margin: 4px;
+    height: 85vh;
+    width: 60%;
+    flex-direction: column;
+    
+}
+.left_above{
+    background-color: aquamarine;
+    height: 42.5vh;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.left_below{
+    display: flex;
+    height: 42.5vh;
+    width: 100%;
+    margin-top: 5px ;
+    flex-direction: row-reverse;
+}
+.left_bl{
+    flex: 1;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.left_br{
+    background-color: violet;
+    flex: 1;
+    margin-left: 5px;
+}
+.left_bla{
+    background-color: red;
+    flex: 1;
+    margin-bottom: 5px;
+}
+.left_blb{
+    background-color: orange;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.right{
+    display: flex;
+    margin: 4px;
+    height: 85vh;
+    width: 40%;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+}
+.right_tl{
+    background-color: purple;
+    width: 80%;
+    margin-right: 5px ;
+}
+.right_tr{
+    background-color: green;
+    width: 20%;
+    margin-left: 5px;
+}
+.above{
+    background-color: yellow;
+    height: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.below{
+    display: flex;
+    height: 60%;
+    flex-direction: row;
+}
+.below_left{
+    background-color: green;
+    width: 33.33%;
+    margin-right: 5px;
+}
+.below_center{
+    background-color: red;
+    width: 33.33%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.below_right{
+    background-color: green;
+    width: 33.33%;
+    margin-left: 5px;
+}
+.bottom{
+    background-color: gray;
+    height: 10%;
+    margin-top: 10px;
+}
+.footer{
+    background-color: black;
+    height: 5vh;
+    margin: 4px;
+}

@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 25vh;
+    width: 66vh;
+    display: flex;
+}
+.characters_H{
+    display: flex;
+}
+.characters_I{
+    display: flex;
+    flex-direction: column;
+}
+.characters_-{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: orange;
+    height: 5vh;
+    width: 5vh;
+}
+.spacer{
+    width: 2vh;
+    height: 40vh;
+}
+.I_ngang{
+    display: flex;
+}
+.characters_I_in_T{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.white{
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+}
+.space_between{
+    display: flex;
+    flex-direction: column;
+}
+.digit_3{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
